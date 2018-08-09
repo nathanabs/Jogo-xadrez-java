@@ -5,6 +5,8 @@
  */
 package aplicacao;
 
+import xadrez.PartidaDeXadrez;
+
 /**
  *
  * @author Nathan
@@ -15,7 +17,8 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PartidaDeXadrez partidaDeXadrez = new PartidaDeXadrez();
+        UI.printTabuleiro(partidaDeXadrez.getPecas());
     }
     
 }
