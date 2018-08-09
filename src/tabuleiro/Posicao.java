@@ -14,9 +14,9 @@ public class Posicao {
     private int linha;
     private int coluna;
 
-    public Posicao(int linha, int color) {
+    public Posicao(int linha, int coluna) {
         this.linha = linha;
-        this.coluna = color;
+        this.coluna = coluna;
     }
 
     public int getLinha() {
@@ -27,12 +27,12 @@ public class Posicao {
         this.linha = linha;
     }
 
-    public int getColor() {
+    public int getColuna() {
         return coluna;
     }
 
-    public void setColor(int color) {
-        this.coluna = color;
+    public void setColuna(int coluna) {
+        this.coluna = coluna;
     }
 
     @Override
